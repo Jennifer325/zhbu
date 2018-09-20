@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="EditPlus®">
+  <meta name="WQ" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>欢乐PARTY</title>
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+
+  <script language='javascript' src="js/register.js" charset="utf-8"></script>  
+ </head>
+ <body>
+<!--头部信息header -->
+    <div id="header">
+     <div id="bar"><img src="images/logo_index.png">
+	 </div>
+
+   </div>
+<!--注册框 -->
+   <div id="register">
+     <center><img src="images/register.png"><img width="120px" height="100px" src="images/wel.gif"></center><!-- 注册图片-->
+	 <form method="post" onSubmit="return register()" action="login.html">
+       <table>
+         <tr>
+		   <td>用&nbsp;户&nbsp;名<span>*</span></td>
+		   <td><input type="text" name="name" id="name"></td>
+		   <td><input type="text" class="info" name="u_name" id="u_name"></td>
+		 </tr>
+		 <tr>
+		   <td>生&nbsp;&nbsp;&nbsp;&nbsp;日</td>
+		   <td>
+		     <select name="year" id="year" onchange="monName(this.selectedIndex)">
+			   <option value="">1990</option>
+			   <option value="">1991</option>
+			   <option value="">1992</option>
+			   <option value="">1993</option>
+			   <option value="">1994</option>
+			   <option value="">1995</option>
+			   <option value="">1996</option>
+			   <option value="">1997</option>
+			   <option value="">1998</option>
+			   <option value="">1999</option>
+			   <option value="">2000</option>
+		       <option value="">2001</option>	   
+               <option value="">2002</option>
+			   <option value="">2003</option>
+			   <option value="">2005</option>
+			   <option value="">2006</option>
+			   <option value="">2007</option>
+			   <option value="">2008</option>
+			   <option value="">2009</option>
+			   <option value="">2010</option>
+			   <option value="">2011</option>
+			   <option value="">2012</option>
+			   <option value="">2013</option>
+			   <option value="">2014</option>
+			   <option value="">2015</option>
+		     </select>
+			 <select name="mon" id="mon" onchange="dayName(this.selectedIndex)">
+			   <option value="">1</option>
+			   <option value="">2</option>
+			   <option value="">3</option>
+			   <option value="">4</option>
+			   <option value="">5</option>
+			   <option value="">6</option>
+			   <option value="">7</option>
+			   <option value="">8</option>
+			   <option value="">9</option>
+			   <option value="">10</option>
+			   <option value="">11</option>
+			   <option value="">12</option>
+
+		     </select>
+			 <select name="day" id="day">
+			   <option value="">1</option>
+			   <option value="">2</option>
+			   <option value="">3</option>
+			   <option value="">4</option>
+			   <option value="">5</option>
+			   <option value="">6</option>
+			   <option value="">7</option>
+			   <option value="">8</option>
+			   <option value="">9</option>
+			   <option value="">10</option>
+			   <option value="">11</option>
+			   <option value="">12</option>
+			   <option value="">13</option>
+			   <option value="">14</option>
+			   <option value="">15</option>
+			   <option value="">16</option>
+			   <option value="">17</option>
+			   <option value="">18</option>
+			   <option value="">19</option>
+			   <option value="">20</option>
+			   <option value="">21</option>
+			   <option value="">22</option>
+			   <option value="">23</option>
+			   <option value="">24</option>
+			   <option value="">25</option>
+			   <option value="">26</option>
+			   <option value="">27</option>
+			   <option value="">28</option>
+			   <option value="">29</option>
+			   <option value="">30</option>
+			   <option value="">31</option>
+
+		     </select>
+		   </td>
+		   <td><input type="text" class="info" id="u_bir" name="u_bir"></td>
+		 </tr>
+		 <tr>
+		   <td>性&nbsp;&nbsp;&nbsp;&nbsp;别</td>
+		   <td>
+		     <select name="gender" id="gender">
+			   <option value="girl">女</option>
+			   <option value="boy">男</option>
+		     </select>
+		   </td>
+		   <td><input type="text" class="info" id="u_gender" name="u_gender"></td>
+		 </tr>
+		 <tr>
+		   <td class="">Q&nbsp;&nbsp;&nbsp;&nbsp;Q</td>
+		   <td><input type="text" name="qq" id="qq"></td>
+		   <td><input type="text" class="info" id="u_qq" name="u_qq"></td>
+		 </tr>
+		 <tr>
+		   <td>邮&nbsp;&nbsp;&nbsp;&nbsp;箱<span>*</span></td>
+		   <td><input type="text" name="mail" id="mail"></td>
+		   <td><input type="text" class="info" id="u_mail" name="u_mail"></td>
+		 </tr>
+		  <tr>
+		   <td>密&nbsp;&nbsp;&nbsp;&nbsp;码<span>*</span></td>
+		   <td><input type="password" name="pwd" id="pwd"></td>
+		   <td><input type="text" class="info" id="u_pwd" name="u_pwd"></td>
+		 </tr>
+		  <tr>
+		   <td>确认密码<span>*</span></td>
+		   <td><input type="password" name="repwd" id="repwd"></td>
+		   <td><input type="text" class="info" id="u_repwd" name="u_repwd"></td>
+		 </tr>
+		 <tr>
+		   <td colspan="3"><input type="submit" class="but1" value="" /><input type="reset" class="but2" value="" />
+		   </td>
+		 </tr>
+		 
+	   </table>
+	 </form>
+	    <p>已注册？点击这里<a href="login.html">登录</a></p>
+   </div>
+   <div id="footer">
+     2014 by WQ<br><br><a href="index.html">首页</a>-<a href="language.html">千言万语</a>-<a href="game.html">娱乐休闲</a>-<a href="world.html">大千世界</a>-<a href="food.html">满汉全席</a>-<a href="picture.html">摄影天地</a>-<a href="tech.html">科技前沿</a>&nbsp;&nbsp;<a href="help.html">帮助</a>
+   </div>
+ </body>
+</html>
