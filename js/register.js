@@ -54,39 +54,30 @@ function che_login(){
 	var upwd = document.getElementById("pwd").value;
 
 	if(uname=="王倩"&&upwd==123){
-		document.getElementById("form1").action="index2.html";
          return true;
 	}else{
 		if(uname=="王明艳"&&upwd==123){
-			document.getElementById("form1").action="index2.html";
 	         return true;
 		}else{
 			if(uname=="薛婷"&&upwd==123){
-				document.getElementById("form1").action="index2.html";
 		         return true;
 			}else{
 				if(uname=="李均"&&upwd==123){
-					 document.getElementById("form1").action="index2.html";
 			         return true;
 				}else{
 					if(uname=="张晓梅"&&upwd==123){
-						document.getElementById("form1").action="index2.html";
 				         return true;
 					}else{
 						if(uname=="吕杰"&&upwd==123){
-							document.getElementById("form1").action="index2.html";
 					         return true;
 						}else{
 							if(uname=="王丽萍"&&upwd==123){
-								document.getElementById("form1").action="index2.html";
 						         return true;
 							}else{
 								if(uname=="赵兵彬"&&upwd==123){
-									document.getElementById("form1").action="index2.html";
 							         return true;
 								}else{
 									if(uname=="赵一帆"&&upwd==123){
-										document.getElementById("form1").action="index2.html";
 								         return true;
 									}else{
 										alert("Username or password is wrong,please check them!");
